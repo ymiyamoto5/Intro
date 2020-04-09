@@ -1,0 +1,13 @@
+/* .photos {
+  margin-top: 5%;
+} */
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.title {
+  text-align: left;
+}

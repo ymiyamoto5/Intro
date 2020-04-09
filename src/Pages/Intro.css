@@ -1,0 +1,31 @@
+#main {
+  max-width: 960px;
+  padding: 0;
+  margin: 70px 15%;
+}
+
+.box {
+  margin: 0 40px;
+}
+
+.fbox {
+  display: flex;
+  margin-top: 50px;
+}
+
+.fbox-left {
+  width: 30%;
+  text-align: left;
+}
+
+.fbox-rigth {
+  width: 30%;
+}
+
+dt{
+  float: left;
+}
+
+dd{
+  margin-left: 80px;
+}
