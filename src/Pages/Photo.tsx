@@ -2,6 +2,7 @@ import React from 'react';
 import SubPageHeader from '../Components/SubPageHeader';
 import Title from '../Components/Title';
 import Cats from '../Components/Cats';
+import Travel from '../Components/Travel'
 import './Photo.css';
 
 const Photo = () => {
@@ -10,11 +11,10 @@ const Photo = () => {
       <SubPageHeader />
       <div id="main">
         <section className="box">
-          <div className="title">
-            <Title name="photos"></Title>
-          </div>
           <div id="photos">
             <Cats></Cats>
+            <br />
+            <Travel></Travel>
           </div>
         </section>
       </div>
