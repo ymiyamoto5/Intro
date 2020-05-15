@@ -6,11 +6,6 @@
   font-size: 1.125rem;
   margin: 10px 0 42px;
 }
-/* .wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 4%;
-} */
 
 .page-title {
   font-size: 5rem;
@@ -27,13 +22,12 @@
 }
 
 #home {
-  background-image: url(../images/home-image.jpg);
-  min-height: 85vh;
+  background-image: url(../images/home-image.jpg),linear-gradient(#c9ffbf, orange);
+  min-height: 82vh;
   margin: 20px auto;
   background-blend-mode: luminosity;
   color: white;
 }
-
 
 #home .page-title {
   font-family: 'Lato', sans-serif;

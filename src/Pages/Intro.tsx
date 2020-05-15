@@ -4,6 +4,7 @@ import SubPageHeader from '../Components/SubPageHeader'
 import Title from '../Components/Title'
 import Face from '../Components/Face'
 import GoogleMap from '../Components/GoogleMap'
+import Personal from '../images/other/personal.jpg'
 
 const Intro = () => {
   return (
@@ -23,10 +24,15 @@ const Intro = () => {
               <dl className="info">
                 <dt>名前：</dt>
                 <dd>宮本　裕也</dd>
-                <dt>家族：</dt>
+                <dt>家族構成：</dt>
                 <dd>妻/猫2匹</dd>
                 <dt>出身地：</dt>
                 <dd>徳島</dd>
+                <dt>性格：</dt>
+                <dd>
+                  <a href={Personal}>管理者型</a>
+                  <a href="https://www.16personalities.com/ja/istj%E5%9E%8B%E3%81%AE%E6%80%A7%E6%A0%BC">(説明)</a>
+                </dd>
               </dl>
             </div>
             <div className="fbox-right">
@@ -34,9 +40,7 @@ const Intro = () => {
                 <GoogleMap />
               </div>
             </div>
-
           </div>
-
         </section>
       </div>
     </div>
